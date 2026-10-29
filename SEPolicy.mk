@@ -2,7 +2,7 @@
 MTK_SEPOLICY_PATH := device/mediatek/sepolicy_vndr
 TRUSTY_DEVICE_PATH := device/generic/trusty
 
-include device/lineage/sepolicy/libperfmgr/sepolicy.mk
+include device/lumine/sepolicy/libperfmgr/sepolicy.mk
 
 BOARD_VENDOR_SEPOLICY_DIRS += $(MTK_SEPOLICY_PATH)/base/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(MTK_SEPOLICY_PATH)/base/private
